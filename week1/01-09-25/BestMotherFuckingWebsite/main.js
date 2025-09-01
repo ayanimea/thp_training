@@ -1,10 +1,7 @@
-(function () {
-  "use strict";
-  /* Start of your code */
-  function greetMe(yourName) {
-    alert(`Hello ${yourName}`);
-  }
+const buttonToggle = document.querySelector('.toggle');
+buttonToggle.addEventListener('click', toggleClass);
 
-  greetMe("World");
-  /* End of your code */
-})();
+function toggleClass(){
+  const element = document.querySelector('body');
+  element.classList.toggle('new-class');
+}

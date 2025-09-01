@@ -11,3 +11,17 @@ footer {
    border: 0.5px solid grey; 
    padding: 10px;
 }
+
+.demo {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.new-class{
+    background: red;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+}
