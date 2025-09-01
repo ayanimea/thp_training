@@ -1,15 +1,15 @@
-const buttonToggle = document.querySelector('.toggle');
-buttonToggle.addEventListener('click', toggleClass);
+const buttonToggle = document.querySelector('.button-invert-theme');
+buttonToggle.addEventListener('click', invertTheme);
 
-const buttonIncreaseContrast = document.querySelector('.increase-contrast');
+const buttonIncreaseContrast = document.querySelector('.button-increase-contrast');
 buttonIncreaseContrast.addEventListener('click', increaseContrast);
 
-function toggleClass(){
-  const element = document.querySelector('body');
-  element.classList.toggle('toggle-light');
+function invertTheme(){
+  const html_body = document.querySelector('body');
+  html_body.classList.toggle('css-invert-theme');
 }
 
 function increaseContrast(){
-    const body = document.querySelector('body');
-    body.classList.toggle('high-contrast')
+    const html_body = document.querySelector('body');
+    html_body.classList.toggle('css-increase-contrast');
 }

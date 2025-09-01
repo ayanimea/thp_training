@@ -1,11 +1,14 @@
 body {
-    line-height: 1.6;
-    background-color: #000000;
-    margin: 2em auto;
-    max-width: 800px;
-    font-size: 18px;
-    color: #454545;
-    font-family: Open Sans, Arial;
+  font-family: Open Sans, Arial;
+  color: #454545;
+  font-size: 16px;
+  margin:2em auto;
+  max-width:800px;
+  padding:1em;
+  line-height:1.4;
+  -webkit-hyphens:auto;
+  -ms-hyphens:auto;
+  hyphens:auto;
 }
 
 footer {
@@ -13,21 +16,62 @@ footer {
    padding: 10px;
 }
 
-.high-contrast{
-   background-color: red;
-   color:#050505; 
-}
-
-.high-contrast a{
-   color: red; 
-}
-
-.toggle-light{
+.css-invert-theme {
     background: black;
     color: white;
 }
 
-button {
-  padding: 10px 20px;
-  font-size: 1.2em;
+.css-increase-contrast {
+  color: #050505;
 }
+
+.css-increase-contrast blockquote {
+    color: #11151a;
+}
+
+.css-increase-contrast blockquote:before {
+    color: #262626;
+}
+
+.css-increase-contrast a {
+    color: #7d013e;
+}
+
+.css-increase-contrast span.wr {
+    color: #800;
+}
+
+.css-increase-contrast span.mfw {
+    color: #d9d9d9;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 2rem;
+    background-color: #eee;
+    border: 3px solid #333;
+    border-radius: 10px;
+    color: #333;
+}
+@media (prefers-color-scheme: dark) {
+    button {
+        background: #333;
+        border-color: #333;
+        color: #eee;
+    }
+}
+@media (prefers-color-scheme: light) {
+    button {
+        background: #eee;
+        border-color: #eee;
+        color: #333;
+    }
+}
+
+footer {
+   border: 0.5px solid grey; 
+   padding: 10px;
+}
+
+
