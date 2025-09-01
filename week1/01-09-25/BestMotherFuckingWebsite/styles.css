@@ -12,13 +12,9 @@ footer {
    padding: 10px;
 }
 
-.demo {
-  padding: 10px 20px;
-  margin-bottom: 20px;
-}
-
 .new-class{
-    background: red;
+    background: black;
+    color: white;
 }
 
 button {
