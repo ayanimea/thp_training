@@ -1,10 +1,11 @@
 body {
     line-height: 1.6;
-    background-color: #EEEEEE;
-    margin: 40px auto;
-    max-width: 650px;
+    background-color: #000000;
+    margin: 2em auto;
+    max-width: 800px;
     font-size: 18px;
-    color: #444;
+    color: #454545;
+    font-family: Open Sans, Arial;
 }
 
 footer {
@@ -12,7 +13,16 @@ footer {
    padding: 10px;
 }
 
-.new-class{
+.high-contrast{
+   background-color: red;
+   color:#050505; 
+}
+
+.high-contrast a{
+   color: red; 
+}
+
+.toggle-light{
     background: black;
     color: white;
 }
