@@ -11,13 +11,13 @@ html, body {
         overflow: hidden;
         background-color: #FFFFFF;
         margin: 40px auto;
-        max-width: 650px;
         font-size: 18px;
         color: #444;
 }
 
 body {
     display: flex;
+    flex-direction: column;
     color: rgba(0,0,0,.87);
     font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     margin: 0;
@@ -38,8 +38,8 @@ img {
 }
 
 nav {
-    background-color: red;
-    display: block;
+    display: flex;
+    flex-direction: row;
     margin: auto;
     width: 100%;
 }
