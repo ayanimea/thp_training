@@ -1,52 +1,72 @@
 @font-face {
-  font-family:'Google Sans';
-  font-style:normal;
-  font-weight:400 700;
-  src:url(https://fonts.gstatic.com/s/googlesans/v29/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2)format('woff2');
+      font-family: 'Google Sans';
+      font-style: normal;
+      font-weight: 400 700;
+      src: url(https://fonts.gstatic.com/s/googlesans/v29/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2)format('woff2');
 }
 
 html, body {
-    font-family: 'Google Sans';
-    height: 100%;
-    overflow: hidden;
-    background-color: #FFFFFF;
-    margin: 40px auto;
-    max-width: 650px;
-    font-size: 18px;
-    color: #444;
+        font-family: 'Google Sans';
+        height: 100%;
+        overflow: hidden;
+        background-color: #FFFFFF;
+        margin: 40px auto;
+        max-width: 650px;
+        font-size: 18px;
+        color: #444;
 }
 
 body {
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
-  color:rgba(0,0,0,.87);
-  font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-  margin:0;
-  text-size-adjust:100%;
+    display: flexbox;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: rgba(0,0,0,.87);
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin: 0;
+    text-size-adjust: 100%;
 }
 
 textarea {
-  font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 }
 
 a {
-  text-decoration:none;
-  color:#2962ff;
+    text-decoration: none;
+    color: #2962ff;
 }
 
 img {
-  border:none;
+     border: none;
 }
 
 nav {
-   border: 0.5px; 
+    background-color: red;
+    display: block;
+    margin: auto;
+    width: 100%;
 }
 
-nav, ul, li {
+#google_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+#navbar_left, #footer_up, #footer_down_left {
+    align: left;
+    color: red;
+}
+
+#navbar_right, #footer_down_right {
+    align: right;
+}
+
+li {
     display: inline-block;
 }
 
 footer {
-   border: 0.5px solid grey; 
-   padding: 10px;
+    background-color:#EEE;
+    border-top: 0.5px #000;
+    width: 100%;
 }

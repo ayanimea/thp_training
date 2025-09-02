@@ -11,39 +11,57 @@
         <meta content="https:///images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="#">À propos</a></li>
-                <li><a href="#">Google Store</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Gmail</a></li>
-                <li><a href="#">Image</a></li>
-                <li><a href="#" title="Applications"> <img src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt=""></img></a></li>
-                <li><a href="#"><input role="button" type="button" value="Compte Google"></input></a></li>
-            </ul>
-        </nav>
-        <img alt="Google" title="Google" height="92" id="hplogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="padding-top:109px" width="272">
-    
-        <input role="text" value="Search"></text>
-        <input role="button" type="submit" value="Recherche Google"></input>
-        <input role="button" type="submit" value="J'ai de la chance"></input>
+        <header>
+            <nav>
+                <ul id="navbar_left">
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Google Store</a></li>
+                </ul>
+                
+                <ul id="navbar_right">
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Image</a></li>
+                    <li><a href="#" title="Applications"> <img src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt=""></img></a></li>
+                    <!-- FIXME: I'm not a button, but a link with a round border -->
+                    <li><a href="#"><input role="button" type="button" value="Compte Google"></input></a></li>
+                </ul>
+            </nav>
 
+            <img alt="Google" title="Google" height="92" id="hplogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="padding-top:109px" width="272" id="google_logo">
+        </header>
+
+        <main>
+            <input role="text" value="Search"></text>
+            <input role="button" type="submit" value="Recherche Google"></input>
+            <input role="button" type="submit" value="J'ai de la chance"></input>
+        </main>
         <footer>
-            <ul>
+            <ul id="footer_up">
                 <li>France</li>
             </ul>
-            <ul>
-                <li><a href="http://perdu.com" target="_blank">Publicité</a></li>
-                <li><a href="http://perdu.com" target="_blank">Entreprise</a></li>
-                <li><a href="http://perdu.com" target="_blank">Comment fonctionne la recherche Google ? </a></li>
-                <li><a href="http://perdu.com" target="_blank">Notre troisième décennie d'action pour le climat</a></li>
-                <li><a href="http://perdu.com" target="_blank">Signaler un contenu inapproprié</a></li>
-                <li><a href="http://perdu.com" target="_blank">Info consommateurs</a></li>
-                <li><a href="http://perdu.com" target="_blank">Confidentialité</a></li>
-                <li><a href="http://perdu.com" target="_blank">Conditions</a></li>
-                <li><a href="http://perdu.com" target="_blank">Paramètres</a></li>
-            </ul>
+            <div id="footer_down_left">
+                <ul>
+                    <li><a href="http://perdu.com" target="_blank">Publicité</a></li>
+                    <li><a href="http://perdu.com" target="_blank">Entreprise</a></li>
+                    <li><a href="http://perdu.com" target="_blank">Comment fonctionne la recherche Google ? </a></li>
+                </ul>
+            </div>
+
+            <div id="footer_down_center">
+                <ul>
+                    <li><a href="http://perdu.com" target="_blank">Notre troisième décennie d'action pour le climat</a></li>
+                </ul>
+            </div>
+
+            <div id="footer_down_right">
+                <ul>
+                    <li><a href="http://perdu.com" target="_blank">Signaler un contenu inapproprié</a></li>
+                    <li><a href="http://perdu.com" target="_blank">Info consommateurs</a></li>
+                    <li><a href="http://perdu.com" target="_blank">Confidentialité</a></li>
+                    <li><a href="http://perdu.com" target="_blank">Conditions</a></li>
+                    <li><a href="http://perdu.com" target="_blank">Paramètres</a></li>
+                </ul>
+            </div>
         </footer>
     </body>
 
