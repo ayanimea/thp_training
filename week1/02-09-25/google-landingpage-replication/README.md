@@ -14,3 +14,4 @@
 * Google's index page source code (via Firefox's inspector)
 * https://www.w3schools.com
 * https://github.com/anirudhbelwadi/Google-Landing-Page
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
