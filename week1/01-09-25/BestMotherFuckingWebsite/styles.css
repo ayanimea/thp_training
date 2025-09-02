@@ -1,0 +1,102 @@
+body {
+  font-family: Open Sans, Arial;
+  color: #454545;
+  font-size: 16px;
+  margin:2em auto;
+  max-width:800px;
+  padding:1em;
+  line-height:1.4;
+  -webkit-hyphens:auto;
+  -ms-hyphens:auto;
+  hyphens:auto;
+}
+
+footer {
+   border: 0.5px solid grey; 
+   padding: 10px;
+}
+
+.css-invert-theme {
+    background: black;
+    color: white;
+}
+
+.css-increase-contrast {
+  color: #050505;
+}
+
+.css-increase-contrast blockquote {
+    color: #11151a;
+}
+
+.css-increase-contrast blockquote:before {
+    color: #262626;
+}
+
+.css-increase-contrast a {
+    color: #03f;
+}
+
+.css-increase-contrast a:visited {
+    color: #7d013e;
+}
+
+.css-increase-contrast span.wr {
+    color: #800;
+}
+
+.css-increase-contrast span.mfw {
+    color: #d9d9d9;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 2rem;
+    background-color: #eee;
+    border: 3px solid #333;
+    border-radius: 10px;
+    color: #333;
+}
+@media (prefers-color-scheme: dark) {
+    html:not(.css-invert-theme){
+        background-color:#000000;
+    }
+
+    html:not(.css-invert-theme){
+        color: #d9d9d9;
+    }
+    html:not(.inverted) #contrast,
+    html:not(.inverted) blockquote {
+        color:#d3c9be
+    }
+    html:not(.inverted) blockquote:before {
+        color:#b8b8b8
+    }
+    html:not(.inverted) a {
+        color:#00a2e7
+    }
+    html:not(.inverted) a:visited {
+        color:#ca1a70
+    }
+    html:not(.inverted) span.wr {
+        color:#d24637
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .css-invert-theme {
+        background-color: #000;
+    }
+    
+    .css-invert-theme body {
+        background-color: #d9d9d9;
+    }
+}
+
+footer {
+   border: 0.5px solid grey; 
+   padding: 10px;
+}
+
+
