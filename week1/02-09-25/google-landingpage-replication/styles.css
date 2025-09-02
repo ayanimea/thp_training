@@ -22,20 +22,28 @@ body {
   color:rgba(0,0,0,.87);
   font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
   margin:0;
-  text-size-adjust:100%
+  text-size-adjust:100%;
 }
+
 textarea {
-  font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif
+  font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 }
+
 a {
   text-decoration:none;
-  color:#2962ff
+  color:#2962ff;
 }
+
 img {
-  border:none
+  border:none;
 }
-* {
-  -webkit-tap-highlight-color:transparent
+
+nav {
+   border: 0.5px; 
+}
+
+nav, ul, li {
+    display: inline-block;
 }
 
 footer {
