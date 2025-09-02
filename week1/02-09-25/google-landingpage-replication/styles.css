@@ -18,6 +18,8 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     color: rgba(0,0,0,.87);
     font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     margin: 0;
