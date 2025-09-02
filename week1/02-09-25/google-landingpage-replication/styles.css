@@ -59,6 +59,21 @@ body {
     text-decoration: none;
 }
 
+.btn-account,
+.btn-account:link,
+.btn-account:visited {
+    color: #fff;
+}
+
+.btn-account:hover,
+.btn-account:focus {
+    background: #1669c1; /* darker blue for hover */
+    border-color: #1669c1;
+    color: #fff;
+    text-decoration: none;
+}
+
+
 /* Logo + hero */
 #logo {
     display: block;
