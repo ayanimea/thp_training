@@ -23,7 +23,6 @@ body {
     color: rgba(0,0,0,.87);
     font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     margin: 0;
-    text-size-adjust: 100%;
 }
 
 textarea {
@@ -44,21 +43,6 @@ nav {
     flex-direction: row;
     margin: auto;
     width: 100%;
-}
-
-#google_logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-    
-#navbar_left, #footer_up, #footer_down_left {
-    align: left;
-    color: red;
-}
-
-#navbar_right, #footer_down_right {
-    align: right;
 }
 
 li {
