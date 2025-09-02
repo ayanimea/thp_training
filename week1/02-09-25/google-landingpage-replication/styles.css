@@ -17,9 +17,7 @@ html, body {
 }
 
 body {
-    display: flexbox;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    display: flex;
     color: rgba(0,0,0,.87);
     font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     margin: 0;
