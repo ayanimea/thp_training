@@ -13,12 +13,12 @@
     <body>
         <header>
             <nav>
-                <ul id="navbar_left">
+                <ul>
                     <li><a href="#">À propos</a></li>
                     <li><a href="#">Google Store</a></li>
                 </ul>
                 
-                <ul id="navbar_right">
+                <ul>
                     <li><a href="#">Gmail</a></li>
                     <li><a href="#">Image</a></li>
                     <li><a href="#" title="Applications"> <img src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt=""></img></a></li>
@@ -31,15 +31,19 @@
         </header>
 
         <main>
-            <input role="text" value="Search"></text>
-            <input role="button" type="submit" value="Recherche Google"></input>
-            <input role="button" type="submit" value="J'ai de la chance"></input>
+            <form action="" role="search">
+                <textarea id="search-box" title="Rechercher" maxlength="2048" value="" rows="1" role="combobox"></textarea>
+                <div id="search_buttons">
+                    <input role="button" type="submit" value="Recherche Google"></input>
+                    <input role="button" type="submit" value="J'ai de la chance"></input>
+                </div>
+            </form>
         </main>
         <footer>
             <ul id="footer_up">
                 <li>France</li>
             </ul>
-            <div id="footer_down_left">
+            <div>
                 <ul>
                     <li><a href="http://perdu.com" target="_blank">Publicité</a></li>
                     <li><a href="http://perdu.com" target="_blank">Entreprise</a></li>
@@ -47,13 +51,13 @@
                 </ul>
             </div>
 
-            <div id="footer_down_center">
+            <div>
                 <ul>
                     <li><a href="http://perdu.com" target="_blank">Notre troisième décennie d'action pour le climat</a></li>
                 </ul>
             </div>
 
-            <div id="footer_down_right">
+            <div>
                 <ul>
                     <li><a href="http://perdu.com" target="_blank">Signaler un contenu inapproprié</a></li>
                     <li><a href="http://perdu.com" target="_blank">Info consommateurs</a></li>
