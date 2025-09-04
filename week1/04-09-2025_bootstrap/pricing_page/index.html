@@ -20,19 +20,19 @@
 
 
         <style>
-            .bd-placeholder-img {
-                font-size: 1.125rem;
-                text-anchor: middle;
-                -webkit-user-select: none;
-                -moz-user-select: none;
-                user-select: none;
-            }
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
 
-            @media (min-width: 768px) {
-                .bd-placeholder-img-lg {
-                    font-size: 3.5rem;
+                @media (min-width: 768px) {
+                    .bd-placeholder-img-lg {
+                        font-size: 3.5rem;
+                    }
                 }
-            }
         </style>
 
 
@@ -65,6 +65,9 @@
 
             </header>
             <main>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 67%" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
                 <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
                     <div class="col">
                         <div class="card mb-4 rounded-3 shadow-sm">
@@ -82,7 +85,8 @@
                                 <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
                             </div>
                         </div>
-                    </div>
+                    </div> <!-- row (the pricing cards global box)-->
+
                     <div class="col">
                         <div class="card mb-4 rounded-3 shadow-sm">
                             <div class="card-header py-3">
@@ -99,7 +103,8 @@
                                 <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
                             </div>
                         </div>
-                    </div>
+                    </div> <!-- card (first card, for free plan) -->
+
                     <div class="col">
                         <div class="card mb-4 rounded-3 shadow-sm border-primary">
                             <div class="card-header py-3 text-white bg-primary border-primary">
