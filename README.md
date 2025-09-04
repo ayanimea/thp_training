@@ -51,4 +51,5 @@ thp_training/
 This repo is under Unlicense—which means do whatever you want, as long as you don’t bite me about it later. 
 
 ## Resources
-TODO
+### On Bootstrap
+* Simple Projects used as examples: [Naylin-dev's Bootstrap Projects](https://github.com/naylin-dev/Bootstrap-Projects)
