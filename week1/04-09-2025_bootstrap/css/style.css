@@ -1,12 +1,12 @@
 body {
-    background-color: #454545;
+    background-color: #F9F9F9;
 }
 
-.bx {
+.navbar-nav {
+    border: solid red;
+}
+
+.nav-item {
     box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.2);
 }
 
-.card-border {
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-    border: 0px;
-}
