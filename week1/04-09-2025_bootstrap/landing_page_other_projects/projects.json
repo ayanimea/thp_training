@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Cool Project",
+    "author": "Jane Doe",
+    "repo": "janedoe/cool-project",
+    "branch": "main",
+    "folder": "demo"
+  },
+  {
+    "name": "Space App",
+    "author": "John Smith",
+    "repo": "johnsmith/space-app",
+    "branch": "master",
+    "folder": ""
+  }
+]
+
