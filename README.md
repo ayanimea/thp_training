@@ -11,7 +11,7 @@
 - [How to Use](#how-to-use)  
 - [Structure](#structure)  
 - [License](#license)  
-- [Resources](#more-learning)  
+- [Resources](#Resources)  
 
 ---
 
